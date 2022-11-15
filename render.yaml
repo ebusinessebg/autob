@@ -6,18 +6,18 @@ services:
     region: frankfurt
     buildCommand: yarn; yarn build
     startCommand: yarn start
-    plan: Free
+    plan: free
     envVars:
       - key: KITE_API_KEY
-        value: ''
+        value: 'kydyf6qsged6swga'
       - key: KITE_API_SECRET
-        value: ''
+        value: 'ak1emq6em9hsjz4xmgjrx39lfe26bkou'
       - key: REDIS_URL
-        value: ''
+        value: '66.94.96.102:6389'
       - key: SIGNALX_API_KEY
         value: ''
       - key: SECRET_COOKIE_PASSWORD
-        value: ''
+        value: '5Ba0LR0FMRgZoxEqmfE24iWu1izxoDjF'
       - key: DATABASE_HOST_URL
         value: ''
       - key: DATABASE_USER_KEY
